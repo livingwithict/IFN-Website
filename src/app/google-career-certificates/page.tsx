@@ -50,12 +50,7 @@ export default function GoogleCareerCertificatesPage() {
                   View Courses
                 </a>
               </div>
-
-              <div className="mt-6 flex items-center gap-6">
-                <Image src="/images/google-logo.svg" alt="Google" width={96} height={32} />
-                <Image src="/images/merojob-logo.svg" alt="Mero Job" width={96} height={32} />
-                <Image src="/images/coursera-logo.svg" alt="Coursera" width={96} height={32} />
-              </div>
+              
             </div>
           </div>
         </section>

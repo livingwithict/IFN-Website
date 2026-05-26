@@ -42,10 +42,10 @@ yarn-error.log*
 # design previews
 public/preview/
 
-# screenshots
-*.png
-!public/images/*.png
-!public/images/*.jpg
+# # screenshots
+# *.png
+# !public/images/*.png
+# !public/images/*.jpg
 
 # typescript
 *.tsbuildinfo
