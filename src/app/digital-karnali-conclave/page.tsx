@@ -27,7 +27,7 @@ export default function DigitalKarnaliConclave() {
         slides={[
           {
             id: 'event-1',
-            src: '/images/ICTAward.jpg',
+            src: '/images/events/DKC.jpg',
             alt: 'Digital Nepal Conclave event',
           },
         ]}

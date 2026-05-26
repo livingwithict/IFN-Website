@@ -27,8 +27,8 @@ export default function PreBudgetIctDiscourse() {
           slides={[
             {
               id: 'event-1',
-              src: '/images/ICTAward.jpg',
-              alt: 'Digital Nepal Conclave event',
+              src: '/images/events/PreBudget.jpg',
+              alt: 'Pre-Budget ICT Discourse event',
             },
           ]}
           actions={[

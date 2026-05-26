@@ -27,8 +27,8 @@ export default function DigitalLeadershipDialogue() {
           slides={[
             {
               id: 'event-1',
-              src: '/images/ICTAward.jpg',
-              alt: 'Digital Nepal Conclave event',
+              src: '/images/events/DLD.jpg',
+              alt: 'Digital Leadership Dialogue event',
             },
           ]}
           actions={[
