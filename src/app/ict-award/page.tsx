@@ -60,7 +60,7 @@ export default function IctAward() {
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white font-bold">1</div>
-                  <div className="h-24 w-1 bg-gray-200 mt-2" />
+                  <div className="h-12 w-1 bg-gray-200 mt-2" />
                 </div>
                 <div className="pb-8">
                   <h3 className="text-xl font-semibold text-[#0E2557] mb-2">Registration</h3>
@@ -74,7 +74,7 @@ export default function IctAward() {
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white font-bold">2</div>
-                  <div className="h-24 w-1 bg-gray-200 mt-2" />
+                  <div className="h-12 w-1 bg-gray-200 mt-2" />
                 </div>
                 <div className="pb-8">
                   <h3 className="text-xl font-semibold text-[#0E2557] mb-2">Submit Application</h3>
@@ -88,7 +88,7 @@ export default function IctAward() {
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white font-bold">3</div>
-                  <div className="h-24 w-1 bg-gray-200 mt-2" />
+                  <div className="h-12 w-1 bg-gray-200 mt-2" />
                 </div>
                 <div className="pb-8">
                   <h3 className="text-xl font-semibold text-[#0E2557] mb-2">Preliminary Review</h3>
@@ -102,7 +102,7 @@ export default function IctAward() {
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white font-bold">4</div>
-                  <div className="h-24 w-1 bg-gray-200 mt-2" />
+                  <div className="h-12 w-1 bg-gray-200 mt-2" />
                 </div>
                 <div className="pb-8">
                   <h3 className="text-xl font-semibold text-[#0E2557] mb-2">Jury Evaluation</h3>
@@ -116,6 +116,7 @@ export default function IctAward() {
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white font-bold">5</div>
+                  <div className="h-12 w-1 bg-gray-200 mt-2" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-[#0E2557] mb-2">Award Ceremony</h3>

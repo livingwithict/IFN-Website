@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 const slides = [
   {
     id: 'hero-bg',
-    src: '/images/hero-bg.jpg',
+    src: '/images/hero/hero-1.jpg',
     alt: 'ICT Foundation Nepal event',
     caption: 'Building across communities',
   },

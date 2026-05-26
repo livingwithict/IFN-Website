@@ -21,11 +21,11 @@ const navLinks: NavLink[] = [
   },
   {
     label: "Events",
-    href: "/#events",
+    href: "/#UpcomingEventsSection",
     children: [
       {
         label: "Digital Conclaves",
-        href: "/#events",
+        href: "/#UpcomingEventsSection",
         children: [
           { label: "Digital Nepal Conclave", href: "digital-nepal-conclave" },
           { label: "Digital Karnali Conclave", href: "digital-karnali-conclave" },
@@ -44,6 +44,7 @@ const navLinks: NavLink[] = [
     children: [
       { label: "Digital Samvad", href: "digital-samvad" },
       { label: "ICT Gyan", href: "ict-gyan" },
+      { label: "Startup & Idea Fest", href: "ideafest" },
       { label: "Business Incubation Service", href: "incubation" },
       { label: "Google Career Certification", href: "google-career-certificates" },
     ],
@@ -51,6 +52,10 @@ const navLinks: NavLink[] = [
   {
     label: "Publications",
     href: "/publications",
+    // children: [
+    //   { label: "Event Reports", href: "/#publications" },
+    //   { label: "Research Publication", href: "/#publications" },
+    // ],
   },
   { label: "News & Media", href: "/news-and-media" },
   { label: "Collaborations", href: "/collaboration" },
