@@ -138,9 +138,9 @@ export default function PublicationsPage() {
   return (
     <>
       <Header />
-      <main>
+      <main className="pt-14">
         {/* Hero Section */}
-        <section className="py-10 md:py-16">
+        <section className="py-4 md:py-16">
           <div className="mx-auto max-w-7xl px-6">
             <div className="mx-auto mb-4 section-divider" />
             <h1 className="mb-4 text-center text-3xl font-bold text-primary md:text-[32px]">
@@ -155,7 +155,7 @@ export default function PublicationsPage() {
         </section>
 
         {/* Publications Grid */}
-        <section className="py-10">
+        <section className="py-0">
           <div className="mx-auto max-w-7xl px-6">
             <div className="mb-12">
               <h2 className="mb-8 text-2xl font-semibold text-body-text">
@@ -223,7 +223,7 @@ export default function PublicationsPage() {
         </section>
 
         {/* Government Research Section */}
-        <section className="py-10 md:py-16">
+        <section className="py-4 md:py-8">
           <div className="mx-auto max-w-7xl px-6">
             <h2 className="mb-8 text-2xl font-semibold text-body-text">Government Research</h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
