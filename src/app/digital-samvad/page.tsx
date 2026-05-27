@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
-import SlideshowHero from '@/components/SlideshowHero';
+import Image from 'next/image';
 import Link from 'next/link';
 import { FiArrowRight } from 'react-icons/fi';
 
@@ -15,27 +15,39 @@ export default function DigitalSamvad() {
     <>
       <Header />
       <main>
-        <SlideshowHero
-          // label="Digital Samvad"
-          title="Digital Samvad"
-          description="Series that aims to align stakeholders with the vision of Digital Nepal, discussing strategies for digitization."
-          // breadcrumbs={[
-          //   { href: '/', label: 'Home' },
-          //   { href: '/#initiatives', label: 'Events' },
-          //   { href: '/events/digital-samvad', label: 'Digital Samvad' },
-          // ]}
-          slides={[
-            {
-              id: 'event-1',
-              src: '/images/events/Samvad.jpg',
-              alt: 'Digital Samvad event',
-            },
-          ]}
-          actions={[
-            { label: 'Learn More', href: 'https://digitalsamvad.org/', variant: 'primary' },
-            // { label: 'Register Now', href: '#register', variant: 'secondary' },
-          ]}
-        />
+        {/* Hero */}
+        <section className="relative min-h-[65vh] flex items-center justify-center bg-gray-900 text-white">
+          <div className="absolute inset-0">
+            <Image
+              src="/images/events/Samvad.jpg"
+              alt="Digital Samvad event"
+              fill
+              style={{ objectFit: 'cover' }}
+              priority
+            />
+            <div className="absolute inset-0 bg-black/80" />
+          </div>
+
+          <div className="relative z-10 mx-auto max-w-6xl px-6 text-center">
+            <div className="flex flex-col items-center gap-6">
+              <h1 className="text-4xl font-bold leading-tight lg:text-5xl">
+                Digital Samvad
+              </h1>
+              <p className="max-w-3xl text-lg text-gray-200">
+                Series that aims to align stakeholders with the vision of Digital Nepal, discussing strategies for digitization.
+              </p>
+
+              <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
+                <a
+                  href="https://digitalsamvad.org/"
+                  className="rounded-md bg-primary px-6 py-3 font-semibold text-white hover:opacity-95"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Overview Section */}
         <section id="overview" className="py-16 lg:py-24 bg-gray-50">

@@ -15,19 +15,19 @@ export default function GoogleCareerCertificatesPage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="relative bg-gray-900 text-white">
+        <section className="relative min-h-[65vh] flex items-center justify-center bg-gray-900 text-white">
           <div className="absolute inset-0">
             <Image
-              src="/images/events/Google.png"
+              src="/images/events/Google.jpg"
               alt="Google Career Certificates Scholarship"
               fill
               style={{ objectFit: 'cover' }}
               priority
             />
-            <div className="absolute inset-0 bg-black/60" />
+            <div className="absolute inset-0 bg-black/80" />
           </div>
 
-          <div className="relative z-10 mx-auto max-w-6xl px-6 py-28 text-center">
+          <div className="relative z-10 mx-auto max-w-6xl px-6 text-center">
             <div className="flex flex-col items-center gap-6">
               <h1 className="text-4xl font-bold leading-tight lg:text-5xl">
                 Google Career Certificates Scholarship Program

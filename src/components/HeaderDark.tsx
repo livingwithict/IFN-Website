@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface NavLink {
   label: string;
@@ -80,10 +81,11 @@ export default function HeaderDark() {
     <header className="fixed top-0 right-0 left-0 z-50 bg-white shadow-[0_2px_10px_rgba(0,0,0,0.08)]">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="relative flex h-15 w-auto max-w-[160px] items-center">
-          {/* Dark logo only */}
-          <img
+          <Image
             src="/images/logo.png"
             alt="ICT Foundation Nepal"
+            width={160}
+            height={60}
             className="h-full w-auto"
           />
           <span className="invisible">ICT Foundation Nepal</span>

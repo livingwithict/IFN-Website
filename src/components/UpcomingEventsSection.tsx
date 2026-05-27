@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import AnimatedSection from './AnimatedSection';
@@ -120,9 +121,9 @@ export default function UpcomingEventsSection() {
         >
           <div className="mb-4 grid gap-8 md:gap-10 items-center md:grid-cols-5">
             {/* Logo Placeholder */}
-            <div className={`relative h-64 md:h-auto md:col-span-2 rounded-2xl overflow-hidden bg-white aspect-[3/2] flex items-center justify-center shadow-md p-8 border border-gray-100`}>
-              <div className="text-center">
-                <img src={currentEvent.thumbnail} alt={currentEvent.title} className="mx-auto h-full w-full object-cover" />
+            <div className={`relative h-auto md:h-full md:col-span-2 rounded-2xl overflow-hidden bg-white aspect-video flex items-center justify-center shadow-md p-4 md:p-8 border border-gray-100`}>
+              <div className="text-center w-full">
+                <img src={currentEvent.thumbnail} alt={currentEvent.title} className="mx-auto max-h-80 md:max-h-[32rem] w-80 object-contain" />
               </div>
             </div>
 

@@ -48,9 +48,6 @@ export default function MediaCard({ item }: MediaCardProps) {
         </div>
 
         <div className="flex flex-1 flex-col p-5">
-          {/* <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#E33831]">
-            YouTube Video
-          </p> */}
           <h3 className="line-clamp-2 text-lg font-semibold text-body-text">
             {title}
           </h3>
@@ -92,9 +89,6 @@ export default function MediaCard({ item }: MediaCardProps) {
       </div>
 
       <div className="flex flex-1 flex-col p-5">
-        {/* <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">
-          News Article
-        </p> */}
         <h3 className="line-clamp-2 text-lg font-semibold text-body-text">
           {title}
         </h3>

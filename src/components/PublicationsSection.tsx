@@ -8,7 +8,7 @@ const reports = [
     title: 'Budget Recommendations for Nepal’s Digital Future',
     description: 'Provincial digital capability mapping across all seven provinces',
     color: 'from-blue-600 to-indigo-700',
-    image: '/images/publications/Budget-Recomendation.png',
+    image: '/images/publications/Budget-Recomendation.jpg',
     link: '', 
   },
   {
@@ -22,14 +22,14 @@ const reports = [
     title: 'Digital Paridisya 1.0',
     description: "Strategic framework report for Nepal's digital transformation",
     color: 'from-teal-600 to-cyan-700',
-    image: '/images/publications/Digital-Paridisya-1.jpeg',
+    image: '/images/publications/Digital-Paridisya-1.jpg',
     link: '',
   },
   {
     title: 'Digital Nepal Conclave 2024',
     description: "Strategic framework report for Nepal's digital transformation",
     color: 'from-teal-600 to-cyan-700',
-    image: '/images/publications/DNC-24-report.jpeg',
+    image: '/images/publications/DNC-24-report.jpg',
     link: '',
   },
 ];

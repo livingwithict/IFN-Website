@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
@@ -23,7 +24,14 @@ export default function TeamCard({ name, role, bio, photo, facebook, instagram, 
       whileHover={{ y: -6 }}
       className="rounded-xl border border-gray-100 bg-white p-6 text-center shadow-sm transition-shadow duration-300 hover:shadow-lg"
     >
-      <img src={photo} alt={name} className="mx-auto mb-4 h-50 w-50 rounded-full object-cover" />
+      <div className="relative mx-auto mb-4 h-50 w-50 rounded-full overflow-hidden">
+        <Image
+          src={photo}
+          alt={name}
+          fill
+          className="object-cover"
+        />
+      </div>
       <h3 className="text-lg font-semibold text-[#0E2557]">{name}</h3>
       <p className="mb-3 text-sm text-primary-light">{role}</p>
       <p className="mb-4 text-sm text-gray-600">{bio}</p>

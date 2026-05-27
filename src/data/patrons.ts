@@ -62,7 +62,7 @@ export const patrons: Patron[] = [
     name: 'Guna Keshari Pradhan',
     role: '',
     bio: '',
-    photo: '/images/patrons/Guna Keshari.png',
+    photo: '/images/patrons/Guna Keshari.jpg',
   },
 ];
 

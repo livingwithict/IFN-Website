@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface NavLink {
   label: string;
@@ -100,16 +101,18 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="relative flex h-15 w-auto max-w-[160px] items-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/images/logo-white.png"
             alt="ICT Foundation Nepal"
+            width={160}
+            height={60}
             className={`absolute inset-0 h-full w-auto transition-opacity duration-300 ${scrolled ? 'opacity-0' : 'opacity-100'}`}
           />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/images/logo.png"
             alt="ICT Foundation Nepal"
+            width={160}
+            height={60}
             className={`absolute inset-0 h-full w-auto transition-opacity duration-300 ${scrolled ? 'opacity-100' : 'opacity-0'}`}
           />
           <span className="invisible">ICT Foundation Nepal</span>
