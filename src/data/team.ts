@@ -76,7 +76,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Chief Operation Officer',
     bio: '',
     photo: '/images/team/Sujal Bhakta Shrestha.jpg',
-    facebook: 'https://www.facebook.com/sujal.bhaktashrestha/',
+    facebook: 'https://www.facebook.com/profile.php?id=61592257575964',
     instagram: 'https://www.instagram.com/sujalbhaktashrestha/',
     linkedin: 'https://www.linkedin.com/in/sujalbhaktashrestha/',
   },
